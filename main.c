@@ -16,7 +16,7 @@ int main()
    else{ 
     t = fileopen(fp,&t);
     while(1){
-        printf("\nEnter the digits to execute command\n");
+        printf("\nEnter digits to execute command\n");
         printf("1.Find Hotels Near Me. \n2.Find Hotels At Some Distance From Me.\n3.Find Hotels In My City \n4.Exit\n");
         int input;
         scanf("%d",&input);
